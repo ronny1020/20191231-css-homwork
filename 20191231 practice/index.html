@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form of HOmework</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap-4.4.1-dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap');
+        * {
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+    </style>
+
+    <body>
+        <form class="form-horizontal" style="margin-left:19.1% ; margin-right:19.1%;">
+
+            <fieldset>
+
+                <!-- Form Name -->
+                <legend>請輸入資料</legend>
+                <hr>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="id">帳號：</label>
+                    <div class="col-md-4">
+                        <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md">
+
+                    </div>
+                </div>
+                <br>
+                <!-- Password input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="passwordinput">密碼：</label>
+                    <div class="col-md-4">
+                        <input id="passwordinput" name="passwordinput" type="password" placeholder="" class="form-control input-md">
+
+                    </div>
+                </div>
+
+                <!-- Password input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="passwordinput-check">密碼確認：</label>
+                    <div class="col-md-4">
+                        <input id="passwordinput-check" name="passwordinput-check" type="password" placeholder="" class="form-control input-md">
+
+                    </div>
+                </div>
+                <br>
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="name">姓名：</label>
+                    <div class="col-md-4">
+                        <input id="name" name="textinput" type="text" placeholder="" class="form-control input-md">
+
+                    </div>
+                </div>
+                <br>
+
+                <!-- date input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="birthday">生日：</label>
+                    <div class="col-md-4">
+                        <input id="birthday" name="birthday" type="date" placeholder="" class="form-control input-md">
+
+                    </div>
+                </div>
+                <br>
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="email">電子信箱：</label>
+                    <div class="col-md-4">
+                        <input id="email" name="textinput" type="text" placeholder="" class="form-control input-md">
+
+                    </div>
+                </div>
+
+                <br>
+                <!-- File Button -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="filebutton">上傳大頭照：</label>
+                    <div class="col-md-4">
+                        <input id="filebutton" name="filebutton" class="input-file" type="file">
+                    </div>
+                </div>
+                <br>
+                <!-- Multiple Radios -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="gender">性別：</label>
+                    <div class="col-md-4">
+                        <div class="radio">
+                            <label for="male">
+              <input type="radio" name="sex" id="male" value="1" checked="checked">
+              男
+            </label>
+                        </div>
+                        <div class="radio">
+                            <label for="female">
+              <input type="radio" name="sex" id="female" value="2">
+              女
+            </label>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <!-- Select Basic -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="country">國籍地區</label>
+                    <div class="col-md-4">
+                        <select id="country" name="selectbasic" class="form-control">
+              <option value="1">台灣</option>
+              <option value="2">美國</option>
+              <option value="3">日本</option>
+              <option value="4">韓國</option>
+              <option value="5">英國</option>
+              <option value="6">法國</option>
+              <option value="7">澳洲</option>
+
+            </select>
+                    </div>
+                </div>
+                <br>
+                <!-- Textarea -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textarea">簡介：</label>
+                    <div class="col-md-4">
+                        <textarea class="form-control" id="textarea" name="textarea">請在這輸入簡介</textarea>
+                    </div>
+                </div>
+
+                <!-- Button (Double) -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="button1id"></label>
+                    <div class="col-md-8">
+                        <button id="button1id" name="button1id" type="submit" class="btn btn-success">送出</button>
+                        <button id="button2id" name="button2id" class="btn btn-danger">取消</button>
+                    </div>
+
+        </form>
+
+    </body>
+
+</html>
